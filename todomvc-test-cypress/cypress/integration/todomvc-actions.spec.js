@@ -22,10 +22,12 @@ describe('todo actions',()=>{
         cy.visit('http://todomvc-app-for-testing.surge.sh/')
         cy.get('.new-todo',{timeout:4000}).type('Clean room{enter}')
     })
+    //it.only('should add a new todo to the list',() =>{
     it('should add a new todo to the list',() =>{
                     //Validations starts with ...Should
         cy.get('label').should('have.text','Clean room')
         cy.get('.toggle').should('not.be.checked')
+        cy.get('.toggle').should('be.checked')
     
     })
     
