@@ -11,6 +11,7 @@ NPM: npm init -y
 Cypress: npm instal cypress@3
 
 * https://testautomationu.applitools.com/cypress-tutorial/
+* https://eyes.applitools.com/app/test-results/00000251739968360884/?accountId=ln3SPRu6_kWNpKDQjO70bw__
 # Ejecución
 -	Run package: npx cypress open
 -	Run all Project: npx cypress run
